@@ -1,0 +1,25 @@
+hr{
+	margin-left: 0em;
+	width: 11.5em;
+	height: .3em;
+}
+
+.red{
+	color: red;
+}
+
+.red hr{
+	background: currentColor;
+}
+
+.red span{
+	color: blue;
+}
+
+.blue{
+	color: blue;
+}
+
+.blue hr{
+	background: inherit;
+}

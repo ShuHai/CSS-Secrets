@@ -1,0 +1,2 @@
+currentColor是一个新属性，可以让子元素的颜色显示根据父元素的变化来变化。
+他有点像inherit的效果但是inherit只支持同属性直接的父子元素继承，而currentColor则更加灵活
