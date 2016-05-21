@@ -1,0 +1,10 @@
+ul{
+	--variable-color: purple;
+}
+ol{
+	--variable-color: rebeccapurple;
+}
+li{
+    width: 20em;
+	background: var(--variable-color);
+}
