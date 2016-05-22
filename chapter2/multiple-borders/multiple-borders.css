@@ -1,0 +1,20 @@
+.shadow{
+	width: 15em;
+	height: 5em;
+	margin: 2em;
+	margin-bottom: 3em;
+	background: yellowgreen;
+	box-shadow:  0 0 0 10px #655,
+	             0 0 0 15px deeppink,
+	             0px 2px 5px 16px rgba(0,0,0,.6);
+}
+
+.outline{
+	width: 15em;
+	height: 5em;
+	margin: 1.4em;
+	background: yellowgreen;
+	border: 10px solid #655;
+	outline: 5px solid deeppink;
+	box-shadow: 0px 2px 5px 7px rgba(0,0,0,.6);
+}
