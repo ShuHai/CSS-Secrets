@@ -1,0 +1,10 @@
+利用linear-gradient我们可以做出来各种各样好看的条纹效果。
+通过修改渐变色的百分比我们可以自由控制渐变的效果。
+如果渐变的两种颜色相差的百分比很小，则几乎没有渐变效果。
+而如果两种颜色百分之相差很大则渐变效果更加明显。
+另外注意如果linear-gradient参数中有颜色百分比为0，他的位置会被前一个定义的颜色所替换
+
+通过设置background-size，我们可以让条纹重复铺开。
+如果想要垂直条纹，只要linear-gradient加参数to right即可
+如果想要斜向条纹，则在linera-gradient添加参数 45deg即可
+利用repeating-linear-gradient实现连续斜向条纹效果

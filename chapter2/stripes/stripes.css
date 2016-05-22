@@ -1,0 +1,67 @@
+div{
+	width: 15em;
+	height: 5em;
+	margin-left: 0em;
+}
+.container{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.flex1{
+	flex: 1;
+	margin-left:1em;
+}
+.horizontal1{
+	background: linear-gradient(#fb3 50%, #58a 50%);
+}
+
+.horizontal2{
+	background: linear-gradient(#fb3 0%, #58a 100%);
+}
+
+.horizontal3{
+	background: linear-gradient(#fb3 20%, #58a 80%);
+}
+
+.horizontal4{
+	background: linear-gradient(#fb3 50%, #58a 50%);
+	background-size:100% 2em;
+}
+
+.horizontal5{
+	background: linear-gradient(#fb3 30%, #58a 30%);
+	background-size:100% 2em;
+}
+
+.horizontal6{
+	background: linear-gradient(#fb3 33%, #58a 0,#58a 66%,yellowgreen 0);
+	background-size:100% 2em;
+}
+
+.vertical{
+	background: linear-gradient(to right,#fb3 33%, #58a 0,#58a 66%,yellowgreen 0);
+	background-size:3em 100%;
+}
+
+.diagonal{
+	background: linear-gradient(45deg,#fb3 25%, #58a 0,#58a 50%,#fb3 0, #fb3 75%,#58a 0);
+	background-size:30px 30px;
+}
+
+.diagonal2{
+	background: repeating-linear-gradient(45deg,#fb3, #58a 30px);
+}
+
+.diagonal3{
+	background: repeating-linear-gradient(60deg,#fb3, #fb3 15px,#58a 0,#58a 30px);
+}
+
+.diagonal4{
+	background: repeating-linear-gradient(60deg,#fb3, #fb3 15px,#58a 0,#58a 30px,yellowgreen 0,yellowgreen 45px);
+}
+
+.transparent{
+	background: #58a;
+	background-image: repeating-linear-gradient(30deg,hsla(0,0%,100%,0.1),hsla(0,0%,100%,0.1) 15px,transparent 0, transparent 30px);
+}
