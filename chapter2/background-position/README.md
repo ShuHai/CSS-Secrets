@@ -1,0 +1,5 @@
+经常使用雪碧图的同学相比对background-position这个属性不陌生。
+在css3中这个属性得到了扩展，可以指定我们想要的偏移量，让背景图片定位更加方便。
+另一种实现方式是利用background-origin。
+该属性决定了 background-position相对什么来定位，可选项为border-box,padding-box,content-box.
+最后，使用calc属性同样能实现同样的效果，这时候我们依然可以从css2时代左上角偏移量的角度去考虑这个问题，即100%的宽度减去我们想要的固定值宽度

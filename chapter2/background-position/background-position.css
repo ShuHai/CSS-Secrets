@@ -1,0 +1,23 @@
+div{
+    width: 16em;
+	height: 5em;
+	margin: 2em;
+	padding: 1em;
+    color: white;
+}
+.bg-position{
+	background: url(http://csssecrets.io/images/code-pirate.svg)
+	            no-repeat bottom right #58a;
+	background-position: right 20px bottom 10px;
+}
+
+.bg-origin{
+	background: url(http://csssecrets.io/images/code-pirate.svg)
+	            no-repeat bottom right #58a;
+	background-origin: content-box;
+}
+
+.bg-calc{
+	background: url(http://csssecrets.io/images/code-pirate.svg) no-repeat #58a;
+	background-position: calc(100% - 20px) calc(100% - 10px);
+}
