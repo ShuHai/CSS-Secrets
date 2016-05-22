@@ -1,0 +1,1 @@
+这章就是抖了个机灵，outline的效果不会随着border-radius改变，但是box-shadow却是会的，因此我们可以用box-shadow来填充border-radius和outline之间的空隙来达到边框内圆角的效果
