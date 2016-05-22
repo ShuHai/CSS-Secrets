@@ -1,0 +1,16 @@
+body{
+	background: url('http://csssecrets.io/images/stone-art.jpg');
+	background-size:cover;
+}
+.normal{
+	width: 10em;
+	height: 3em;
+	margin: 1em;
+	padding: 0.5em;
+	border: 10px solid hsla(0,0%,100%,.5);
+	color: black;
+	background: white;
+	background-clip: padding-box; 
+
+
+}

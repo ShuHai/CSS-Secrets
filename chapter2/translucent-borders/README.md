@@ -1,0 +1,4 @@
+让我们先回顾一下基础知识，关于RGBA和HSLA。
+所谓RGBA就是传统的红绿蓝加上alpha透明。而HSLA则是Hue（色调），Saturation(饱和度)，Lightness(亮度)以及alpha的缩写。
+为什么要加透明参数而不是用原来的opacity呢，因为opacity属性在使用的时候回默认继承给子元素，让子元素也同样的透明效果，这在开发中会给我们造成不少的困扰。用RGBA或者HSLA则只会作用在元素自己身上，更利于维护。
+关于半透明边框，本来背景色会默认覆盖到border部分导致半透明效果没有显示出来。这时候我们可以通过background-clip属性将背景色效果限制在padding-box来让半透明效果显现
