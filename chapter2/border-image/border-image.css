@@ -1,0 +1,10 @@
+div {
+	border: 1em solid transparent;
+	background: linear-gradient(white, white) padding-box,
+	            url(http://csssecrets.io/images/stone-art.jpg) border-box  0 / cover;
+
+	width: 21em;
+	padding: 1em;
+	overflow: hidden;
+	resize: both;
+}
