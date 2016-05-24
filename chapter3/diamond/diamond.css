@@ -1,0 +1,12 @@
+.diamond{
+	width: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+	transform: rotate(45deg);
+	overflow: hidden;
+}
+
+.diamond > img{
+	max-width: 100%;
+	transform: rotate(-45deg) scale(1.42);
+}
