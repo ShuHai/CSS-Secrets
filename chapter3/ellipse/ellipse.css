@@ -1,0 +1,35 @@
+div{
+	float: left;
+}
+.circle{
+	width: 200px;
+	height: 200px;
+	background: #fb3;
+	border-radius: 50%;
+}
+
+.ellipse{
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #fb3;
+	border-radius: 50% / 50%;
+}
+
+.half-ellipse{
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #fb3;
+	border-radius: 50% / 100% 100% 0 0;
+}
+.quarter-ellipse{
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #fb3;
+	border-radius:  100% 0 0 0;
+}
