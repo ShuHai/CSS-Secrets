@@ -1,0 +1,35 @@
+div{
+	width: 200px;
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 50px;
+	color: white;
+	background-color: #58a;
+}
+
+.normal{
+	transform: skewX(-45deg);
+}
+.skew{
+	transform: skewX(-45deg);
+}
+.skew > span{
+	transform: skewX(45deg);
+	display: block;
+}
+
+.before{
+	position: relative;
+	background-color: transparent;
+	box-sizing: border-box;
+	padding-left: 30px;
+}
+
+.before::before{
+	content: '';
+	position: absolute;
+	top: 0; right: 0; left: 0;bottom: 0;
+	z-index: -1;
+	background: #58a;
+	transform: skew(-45deg);
+}
