@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pie</title>
+	<link rel="stylesheet" type="text/css" href="pie.css">
+<body>
+	<div class="pie">0%</div>
+    <div class="pie">20%</div>
+    <div class="pie">40%</div>
+    <div class="pie">60%</div>
+    <div class="pie">80%</div>
+    <script>
+    	function $$(selector, context) {
+	      context = context || document;
+	      var elements = context.querySelectorAll(selector);
+	      return Array.prototype.slice.call(elements);
+        }
+
+        $$('.pie').forEach(function(pie) {
+	      var p = pie.textContent;
+	      pie.style.animationDelay = '-' + parseFloat(p) + 's';
+        });
+    </script>
+</body>
+</html>
