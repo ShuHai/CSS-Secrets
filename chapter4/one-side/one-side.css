@@ -1,0 +1,20 @@
+div{
+	width: 15em;
+	height: 5em;
+	margin-bottom: 5em;
+	background: yellow;
+
+}
+
+.oneSide{
+	box-shadow: 0 5px 4px -4px black;
+}
+
+.bothSide{
+	box-shadow: 3px 3px 6px -3px black;
+}
+
+.oppositeSide{
+	box-shadow: 5px 0 5px -5px black,
+	            -5px 0 5px -5px black; 
+}
