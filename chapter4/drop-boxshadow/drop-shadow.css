@@ -1,0 +1,21 @@
+.filter{
+	position: relative;
+	width: 10em;
+	height: 9.3em;
+	margin-top: 3em;
+	margin-left: 5em;
+	background: #fb3;
+	filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
+}
+
+.filter::before{
+    content: '';
+    position: absolute;
+    top: 1em;
+    right: -3.2em;
+    width: 0;
+    height: 0;
+    border: 2em solid transparent;
+    border-left-color: #fb3;
+    border-right-width:０;
+}
