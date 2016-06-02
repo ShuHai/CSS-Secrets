@@ -1,0 +1,14 @@
+figure {
+	max-width: 300px;
+	max-width: min-content;
+	margin: auto;
+}
+
+figure > img { max-width: inherit }
+
+/* Basic styling */
+
+figure {
+	padding: 10px;
+	border: 1px solid silver;
+}
