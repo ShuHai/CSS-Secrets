@@ -1,0 +1,24 @@
+section {
+	width: 500px;
+	margin: 2em;
+	background: white;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+section + section table { table-layout: fixed }
+
+td {
+	border: 1px solid #aaa;
+}
+
+td.preformatted {
+	white-space: pre;
+	font-family: Consolas, Monaco, monospace;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
