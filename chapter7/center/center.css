@@ -1,0 +1,14 @@
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	height: 500px;
+	border: 1px solid red;
+}
+
+.normal{
+	width: 5em;
+	height: 5em;
+	background: yellow;
+}
