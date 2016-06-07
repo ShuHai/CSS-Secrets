@@ -1,0 +1,22 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex: 1;
+}
+
+
+main, footer {
+	display: block;
+	padding: .5em calc(50% - 400px);
+}
+
+footer {
+	background: linear-gradient(#222, #444);
+	color: white;
+}
+
+
